@@ -15,7 +15,7 @@ export default function CheckOut() {
 
   async function createOnlineOrder(values) {
     const options = {
-      url: `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartItems.data._id}?url=http://localhost:5173`,
+      url: `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartItems.data._id}?url=https://fresh-cart-kohl.vercel.app/`,
       method: "POST",
       headers: {
         token,
